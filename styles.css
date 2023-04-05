@@ -81,13 +81,13 @@ img {
   text-justify: auto;
 }
 
-/* .post.active .content {
+.post.active .content {
   height: auto;
-} */
+}
 
-/* .post.active .content::before {
+.post.active .content::before {
   display: none;
-} */
+}
 
 .blogpost .post .readmore-btn {
   display: inline-block;
@@ -106,15 +106,15 @@ img {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* .post.active .readmore-btn {
+.post.active .readmore-btn {
   background-color: rgb(249, 213, 83);
   color: #fff;
-} */
+}
 
 .blogpost .post .readmore-btn::before {
   content: "Read more";
 }
 
-/* .blogpost .post.active .readmore-btn::before {
+.blogpost .post.active .readmore-btn::before {
   content: "Show less";
-} */
+}
