@@ -1,11 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f5f7f9;
-    font-family: sans-serif;
+  background-color: #f5f7f9;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
+h1,
+h4 {
+  font-weight: 700;
+  color: #303050;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container {
+  text-align: center;
+  padding: 7px 7px;
+  margin: 30px 20px;
+}
+
+.line {
+  width: 220px;
+  height: 2px;
+  background-color: rgb(248, 54, 145);
+  display: inline-block;
+}
+
+.blogpost {
+  padding: 5px 5px;
+  margin: 15px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.post {
+  width: 30%;
+  margin: 30px 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.post p {
+  text-indent: 2em;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.post li {
+  list-style-position: inside;
+  text-indent: 2em;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.post a {
+  display: inline-block;
+  color: #fff;
+  background-color: rgb(248, 54, 145);
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.post a:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
